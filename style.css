@@ -1,0 +1,106 @@
+body {
+  font-family: "Libre Franklin", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* min-height: 100vh; */
+  /* min-height: 100dvh; */
+}
+header,
+h1,
+h2,
+small {
+  text-align: center;
+}
+h1 {
+  color: hsl(0, 0%, 59%);
+  font-weight: 300;
+  margin-bottom: 5px;
+}
+.highlight {
+  color: hsl(209, 33%, 12%);
+  font-weight: 700;
+}
+h2 {
+  color: hsl(209, 33%, 12%);
+  font-weight: 300;
+  font-size: 16px;
+  margin-top: 0;
+}
+.input-group {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+input,
+button {
+  padding: 12px 20px;
+  border-radius: 25px;
+}
+input {
+  border: 1px solid hsl(230, 50%, 91%);
+  width: 100%;
+  max-width: 300px;
+}
+::placeholder {
+  color: hsl(230, 50%, 91%);
+}
+button {
+  background-color: hsl(223, 87%, 63%);
+  border: 2px solid hsl(223, 87%, 63%);
+  font-weight: 600;
+  color: #fff;
+  width: 100%;
+  max-width: 150px;
+}
+.illustration-dashboard {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  margin-block: 50px 40px;
+}
+.social-icons {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+i {
+  color: hsl(223, 87%, 63%);
+  border-radius: 50%;
+  border: 1px hsl(223, 100%, 88%) solid;
+  padding: 10px;
+}
+.fa-facebook-f {
+  padding: 10px 12px;
+}
+p {
+  text-align: center;
+  color: hsl(0, 0%, 59%);
+  margin-block: 0 10px;
+  font-size: 12px;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 576px) {
+  .input-group {
+    flex-direction: column;
+  }
+  input {
+    width: 100%;
+    max-width: 200px;
+  }
+  button {
+    width: 100%;
+    max-width: 240px;
+  }
+}
