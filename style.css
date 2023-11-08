@@ -30,10 +30,18 @@ h2 {
 }
 .input-group {
   display: flex;
-  gap: 15px;
-  align-items: center;
-  justify-content: center;
+  gap: 20px;
+  /* align-items: center; */
+  justify-content: space-between;
   margin-top: 30px;
+}
+.input-div {
+  /* display: flex; */
+  /* flex-direction: column; */
+  width: 70%;
+}
+.btn-div {
+  width: 30%;
 }
 input,
 button {
@@ -43,7 +51,8 @@ button {
 input {
   border: 1px solid hsl(230, 50%, 91%);
   width: 100%;
-  max-width: 300px;
+  /* max-width: 300px; */
+  max-width: 90%;
 }
 ::placeholder {
   color: hsl(230, 50%, 91%);
@@ -56,9 +65,24 @@ button {
   width: 100%;
   max-width: 150px;
 }
+button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+.error-msg1,
+.error-msg2 {
+  color: red;
+  font-size: 11px;
+  margin-top: 5px;
+  font-style: italic;
+  padding-left: 15px;
+}
+.error-input {
+  border: 1px solid red;
+}
 .illustration-dashboard {
   width: 100%;
-  max-width: 600px;
+  max-width: 550px;
   height: auto;
   margin-block: 50px 40px;
 }
@@ -77,11 +101,19 @@ i {
 .fa-facebook-f {
   padding: 10px 12px;
 }
+i:hover {
+  color: #fff;
+  cursor: pointer;
+  background-color: hsl(223, 87%, 63%);
+}
 p {
   text-align: center;
   color: hsl(0, 0%, 59%);
   margin-block: 0 10px;
   font-size: 12px;
+}
+.hidden {
+  display: none;
 }
 .attribution {
   font-size: 11px;
@@ -94,13 +126,28 @@ p {
 @media (max-width: 576px) {
   .input-group {
     flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+  }
+  .input-div,
+  .btn-div {
+    width: 80%;
+    margin-inline: auto;
   }
   input {
     width: 100%;
-    max-width: 200px;
+    /* max-width: 200px; */
+    /* max-width: 100%; */
+
   }
   button {
-    width: 100%;
-    max-width: 240px;
+    /* width: 100%; */
+    /* max-width: 240px; */
+    max-width: 100%;
+  }
+  .error-msg1,
+  .error-msg2 {
+    text-align: center;
+    padding: 0;
   }
 }
