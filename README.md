@@ -1,6 +1,6 @@
 # Frontend Mentor - QR code component solution
 
-This is a solution to the [Ping coming soon page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/ping-single-column-coming-soon-page-5cadd051fec04111f7b848da). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Ping coming soon page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/ping-single-column-coming-soon-page-5cadd051fec04111f7b848da). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -23,8 +23,15 @@ This is a solution to the [Ping coming soon page challenge on Frontend Mentor](h
 ![](/images/Desktop_View_Active_State.jpeg)
 
 #### Mobile View
+
 <div align="center">
 <img src="/images/Mobile_View.png" width="400">
+</div>
+
+#### Mobile View Active State
+
+<div align="center">
+<img src="/images/Mobile_View_Active_State.png" width="400">
 </div>
 
 ### Links
