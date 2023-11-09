@@ -36,8 +36,8 @@ This is a solution to the [Ping coming soon page challenge on Frontend Mentor](h
 
 ### Links
 
-- Solution URL: [GitHub](https://github.com/LaudRam/intro-component-with-signup-form)
-- Live Site URL: [Live Site URL](https://intro-component-with-signup-form-iota-lake.vercel.app/)
+- Solution URL: [GitHub](https://github.com/LaudRam/ping-coming-soon-page)
+- Live Site URL: [Live Site URL](https://ping-coming-soon-page-alpha-three.vercel.app/)
 
 ### Built with
 
